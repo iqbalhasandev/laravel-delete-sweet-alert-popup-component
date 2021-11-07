@@ -10,16 +10,15 @@ Delete Sweet Alert Popup Components For Laravel Project
 
 - Then Link those Js and css file to your layouts/app.blade
 
-        - For Css
-            ```
-            <link rel="stylesheet" href="{{ asset('plugins/sweet-alert2/sweetalert2.min.css') }}">
-            ```
-        - For Js
-            ```
-            <script src="{{asset('plugins/sweet-alert2/sweetalert2.min.js')}}"></script>
-            <script src="{{asset('js/delete.js')}}"></script>
-
-            ```
+  - For Css
+     ```
+     <link rel="stylesheet" href="{{ asset('plugins/sweet-alert2/sweetalert2.min.css') }}">
+     ```
+  - For Js
+    ```
+    <script src="{{asset('plugins/sweet-alert2/sweetalert2.min.js')}}"></script>
+    <script src="{{asset('js/delete.js')}}"></script>
+    ```
 
 - then copy components/delete.blade.php and paste it on resource/views/components folder.
 
@@ -34,7 +33,7 @@ Delete Sweet Alert Popup Components For Laravel Project
   <x-delete>
   ```
 
-```
+
 
 ## <a href="https://iqbalhasan.dev" target="_blank">iqbalhasan.dev</a> Sponsors
 
@@ -48,8 +47,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The iqbalhasan.dev Project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-```
-
-```
-
-```
